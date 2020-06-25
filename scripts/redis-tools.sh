@@ -9,4 +9,10 @@ function usage() {
   echo ">redis-cli"
 }
 
+function debugger() {
+  echo "There is a debugger for lua"
+  echo "/redis-cli --ldb --eval my-script.lua"
+}
+
 usage
+debugger

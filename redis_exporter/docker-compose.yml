@@ -5,5 +5,9 @@ services:
     image: oliver006/redis_exporter:alpine
     ports:
       - 9121:9121
+    volumes:
+      - ./scripts/:/opt/scripts/
     command:
       - '--redis.addr=redis://host.docker.internal:6379'
+      - '--script=/opt/scripts/sample_collect_script.lua'
+      - '--debug'
