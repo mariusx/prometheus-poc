@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  redis_exporter:
+    image: oliver006/redis_exporter:alpine
+    ports:
+      - 9121:9121
+    command:
+      - '--redis.addr=redis://host.docker.internal:6379'
