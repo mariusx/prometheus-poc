@@ -11,3 +11,8 @@ Basic setup of Prometheus and redis friends
 
 ## Notes
 Configured to run on osx.
+
+## Refs
+Based on the work of (including but not all):
+ - https://github.com/vegasbrianc/prometheus
+ - https://github.com/oliver006/redis_exporter
