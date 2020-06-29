@@ -3,7 +3,7 @@
 ## Trigger a scrape
 
 # -- constants
-base_url=http://localhost:8087
+base_url=http://localhost:8080
 m_url=${base_url}/metrics
 p_url=${base_url}/prometheus
 

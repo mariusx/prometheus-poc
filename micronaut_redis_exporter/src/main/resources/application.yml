@@ -16,4 +16,4 @@ endpoints:
     sensitive: false
 
 redis:
-  uri: redis://localhost
+  uri: redis://host.docker.internal

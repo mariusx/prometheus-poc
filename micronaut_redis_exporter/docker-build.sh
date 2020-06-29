@@ -1,5 +1,5 @@
 #!/bin/sh
-docker build . -t redis_exporter
+docker build . -t micronaut_redis_exporter
 echo
 echo
 echo "To run the docker container execute:"
