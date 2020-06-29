@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: biz.marius.prometheus
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, docker, file-watch, graalvm, gradle, http-client, java, java-application, logback, management, micrometer, micrometer-prometheus, netty-server, properties, readme, redis-lettuce, shade, spock]
